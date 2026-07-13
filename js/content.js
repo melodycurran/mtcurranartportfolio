@@ -1,6 +1,6 @@
 import {data} from './data.js';
 
-const aboutContent = '<div class="about-content"><h2>About</h2><p>Melody Curran is a contemporary oil painter based in Kalispell, Montana. Her work explores the quiet, internal landscapes of the human psyche, capturing the subtle emotions and fleeting thoughts that connect us all. Through a deliberate interplay of light and shadow, Curran translates raw vulnerability, resilience, and introspection into luminous, permanent moments on canvas. Rather than creating standard portraits, her paintings serve as psychological mirrors, inviting viewers to pause and recognize their own inner worlds reflected in another. By bringing these hidden, deeply personal experiences to the surface, Curran\'s work celebrates the profound complexity, beauty, and shared emotional truth of the human condition.</p></div>';
+const aboutContent = '<div class="about-content"><h2>About</h2><p>MT Curran is an emerging oil painter based in Montana who found her passion drawing on the walls of her parent\'s home. Born into poverty, she had to work odd jobs to make ends meet all while developing herself into an artist she is today-- one that has deep empathy and love for humanity. Working in oil, Curran channels her inner thoughts influenced by her life experiences the struggles and desires to preserve oneself despite the relentless pressures of external forces.</p></div>';
 
 const contactContent = '<div class="contact-content"><h2>Contact</h2><p>For inquiries email me at curranmelody02@gmail.com. Please do not send spam messages.</p></div>';
 
