@@ -14,7 +14,8 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	font-size: .75rem;
-	line-height: 2;
+	line-height: 2.5;
+	padding-bottom: 2rem;
 }
 
 h1 {
