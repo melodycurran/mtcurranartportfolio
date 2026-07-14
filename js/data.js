@@ -4,5 +4,9 @@ export const data = [{
 	"title": "Clothed Mannequin",
 	"dimensions": "9X12\"",
 	"medium": "Oil on Canvas",
-	"year": 2026
+	"year": 2026,
+	"competition": {
+		"award": "Entry",
+		"event": "Beautiful Bizarre Art Prize",
+	}
 }];

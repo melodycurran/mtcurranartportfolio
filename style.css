@@ -76,7 +76,8 @@ main {
 
 .close-btn {
 	position: relative;
-	top: 20px;
+	z-index: 9999;
+	top: 5px;
 	color: #fff;
 	margin-top: 10px;
 	cursor: pointer;
@@ -117,7 +118,7 @@ main {
 	}
 
 	.artwork-thumbnail {
-		width: 40%;
+		width: 30%;
 		padding: 1rem;
 	}
 
@@ -128,7 +129,7 @@ main {
 	}
 
 	.modal-content {
-		width: 50%;
+		width: 30%;
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
