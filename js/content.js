@@ -73,7 +73,8 @@ function generateThumbnailHTML(item) {
         <img src="${item.image}" alt="${item.title}" class="artwork-thumbnail"/>
       </a>
       <p> ${item.title} | ${item.dimensions} | ${item.medium} | ${item.year} </p>
-	  <p> ${item.competition?.award} | ${item.competition?.event} </p>
+
+	  ${item.competition ? `<p> ${item.competition.award} | ${item.competition.event} </p>` : ''}
     </div>
   `;
 }
