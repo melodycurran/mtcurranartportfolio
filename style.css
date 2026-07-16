@@ -35,7 +35,9 @@ main {
 }
 
 .image {
-	width: 100%;
+	max-width: 100%;
+	max-height: 80vh;
+	object-fit: contain;
 }
 
 .nav {
@@ -66,9 +68,10 @@ main {
 }
 
 .modal-content {
-	position: absolute;
 	top: 70px;
-	right: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
 	color: #fff;
 	font-size: 40px;
 	font-weight: bold;
@@ -130,9 +133,12 @@ main {
 	}
 
 	.modal-content {
-		width: 30%;
-		left: 50%;
+		position: fixed;
+		max-width: 100%;
+		max-height: 90vh;
+		overflow-y: auto;
 		top: 50%;
+		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 }
